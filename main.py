@@ -1,3 +1,2 @@
-x = 5
-
-print(type(x))
+for i in range(100):
+    print(i)
