@@ -1,4 +1,4 @@
-def my_function():
-  print("Hello from a function")
+def my_function(*kids):
+  print("The youngest child is " + kids[2])
 
-my_function()
+my_function("Emil", "Tobias", "Linus")
